@@ -2,20 +2,20 @@
 A compiler for my custom language (Carbon)
 
 # Requirements
-gcc
-nasm
-OS: Windows x64
+gcc\n
+nasm\n
+OS: Windows x64\n
 
 # Carbon Language
-Carbon is stack based
+Carbon is stack based\n
 
-PUSH Int ; Push an integer to the stack
-POP ; Pop from stack
-ADD ; add the last 2 stack values
-SUB ; same as add
-PRINT String Literal ; Prints out a string literal
-READ ; reads user input (integer)
-JE Label ; Jumps to a label if 0 flag (Stack Pointer value = 0)
-JGT Label ; jumps if greater than
-Label: ; creates a label
-HALT ; Finish program
+PUSH Int ; Push an integer to the stack\n
+POP ; Pop from stack\n
+ADD ; add the last 2 stack values\n
+SUB ; same as add\n
+PRINT String Literal ; Prints out a string literal\n
+READ ; reads user input (integer)\n
+JE Label ; Jumps to a label if 0 flag (Stack Pointer value = 0)\n
+JGT Label ; jumps if greater than\n
+Label: ; creates a label\n
+HALT ; Finish program\n
